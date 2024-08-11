@@ -205,7 +205,7 @@ import { motion } from "framer-motion";
 const bgStyle = {
     backgroundImage: `url(${HeroImg})`,
     backgroundSize: 'cover',
-    backgroundPosition: '50% 30%',  // Change 'top' to 'center'
+    backgroundPosition: '50% 30%',  
     backgroundRepeat: "no-repeat",
     width: "100%",
 };
@@ -222,7 +222,7 @@ const FadeUp = (delay) => {
             y: 0,
             transition: {
                 duration: 0.6,
-                delay: delay,  // Correctly applying the delay
+                delay: delay,  
             }
         }
     }
@@ -296,8 +296,8 @@ const Hero = () => {
                          className='w-[90%] md:w-[400px] mx-auto p-4 bg-white dark:bg-black text-black dark:text-white rounded-2xl shadow-md'>
                             <div>
                                 <h1 className='text-lg text-center font-semibold'>Quick Donation Form</h1>
-                                <div className='flex items-center justify-center gap-8 py-4'>
-                                    <button className='button-square' onClick={() => setData({...data, amount: 100})}>₹100</button>
+                                <div className='flex items-center justify-center gap-[18px]  py-3'>
+                                    <button className='button-square  text-sm md:text-base lg:text-lg' onClick={() => setData({...data, amount: 100})}>₹100</button>
                                     <button className='button-square' onClick={() => setData({...data, amount: 500})}>₹500</button>
                                     <button className='button-square' onClick={() => setData({...data, amount: 1000})}>₹1000</button>
                                     <button className='button-square' onClick={() => setData({...data, amount: 5000})}>₹5000</button>
