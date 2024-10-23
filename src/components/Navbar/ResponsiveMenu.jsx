@@ -32,6 +32,9 @@ const ResponsiveMenu = ({showMenu}) => {
                     <li>
                         <a href="">Contact</a>
                     </li>
+                    <li>
+                        <a href="/about">About Us</a>
+                    </li>
                 </ul>
             </nav>
         </div>

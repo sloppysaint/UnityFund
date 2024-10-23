@@ -21,7 +21,7 @@ const Banner2 = () => {
                             The joy of giving is the true reward; no act of kindness is ever wasted.
                         </li>
                     </ul>
-                    <button className='btn-primary'>Get Started</button>
+                    <button className='btn-primary'>Volunteer</button>
                 </div>
                 {/* img container */}
                 <div>

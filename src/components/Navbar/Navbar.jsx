@@ -53,7 +53,10 @@ const Navbar = () => {
                                         </ul>
                                     </div>
                                 </li>
-                                <li>About Us</li>
+                                <li>
+                                    <a href="/about">About Us</a>
+                                    
+                                </li>
                                 <li>
                                     <div className='flex items-center gap-4'>
                                         {/* icon here */}
